@@ -8,7 +8,7 @@ const LoginPage = () => {
     <div className={styles.loginPage}>
       <h2>Login</h2>
       <form>
-        <label htmlFor="username">Username:</label>
+        <label htmlFor="username">DUsername:</label>
         <input type="text" id="username" name="username" />
 
         <label htmlFor="password">Password:</label>
