@@ -1,14 +1,32 @@
+// LoginPage.js
+import React from 'react';
 import Link from 'next/link';
+import styles from './styles.module.css';
 
-function AppIndex() {
+const LoginPage = () => {
   return (
-    <div>
-      <h1>Página Inicial do App</h1>
-      <Link href="/login/">
-  Ir para a Página
-</Link>
+    <div className={styles.appContainer}>
+      <div className={styles.contentContainer}>
+        <div className={styles.content}>
+          <h1>Login Page</h1>
+
+          <div className={styles.formContainer}>
+            <form>
+              <input type="text" placeholder="Username" className={styles.formInput} />
+              <input type="password" placeholder="Password" className={styles.formInput} />
+              <button type="submit" className={styles.formButton}>
+                Login
+              </button>
+            </form>
+            <p>
+              Não tem uma conta?{' '}
+              <Link href="/cadastro">Crie sua conta</Link>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
-export default AppIndex;
+export default LoginPage;

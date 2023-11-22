@@ -1,0 +1,121 @@
+/* styles.module.css */
+
+.appContainer {
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .menuButton {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    z-index: 3;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    z-index: 2;
+  }
+  
+  .menuBar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .menuContainer.active .menuBar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .menuContainer.active .menuBar2 {
+    opacity: 0;
+  }
+  
+  .menuContainer.active .menuBar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .content {
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .contentShift {
+    margin-left: 200px;
+  }
+  
+  .menuLinks {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #eee;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    z-index: 2;
+  }
+  
+  .menuLinks.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .menuLinks a {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .menuLinks a:hover {
+    color: #0070f3;
+  }
+  
+  .profileSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profileInfo {
+    max-width: 400px;
+  }
+  
+  /* Adicione mais estilos conforme necessário para as informações do perfil */
+  
