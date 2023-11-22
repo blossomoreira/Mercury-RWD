@@ -9,7 +9,6 @@ const MenuLinks = ({ menuActive, closeMenu }) => {
       <Link href="/">Home</Link>
       <Link href="/sobre">Perfil</Link>
       <Link href="/contato">Testes e Tratamentos</Link>
-      <Link href="/contato">Locais</Link>
       <Link href="/contato">Fórum</Link>
     </div>
   );
