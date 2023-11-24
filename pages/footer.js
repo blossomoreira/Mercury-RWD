@@ -10,7 +10,7 @@ const Footer = () => {
         <p>99478 - Diogo Mendes Moreira</p>
       </div>
       <div>
-        <p>98729 - Paolla Felix Alves de Oliveira</p>
+        <p>97694 - Giulia Pina de Figueiredo Galvão Ribeiro</p>
       </div>
       <div>
         <p>99269 - Samara Cardoso Zaluski</p>
