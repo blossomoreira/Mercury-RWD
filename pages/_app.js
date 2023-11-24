@@ -1,6 +1,4 @@
-// pages/_app.js or pages/_app.tsx
-import './styles.module.css'; // Adicione o caminho correto para seus estilos
-import HomePage from './perfil';
+import './styles.module.css'; // Seus estilos globais aqui
 
 function MyApp({ Component, pageProps }) {
   return (

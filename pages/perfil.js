@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import MenuHamburguer from './menuhamburguer';
 import MenuLinks from './menulinks';
-import Footer from './footer'; // Importado o componente de rodapé
+import Footer from './footer'; 
 import styles from './styles.module.css';
 
 const Home = () => {
@@ -43,12 +43,16 @@ const Home = () => {
           <div className={styles.profileSection}>
             <div className={styles.profileImage}></div>
             <div className={styles.profileInfo}>
-              <h2>Seu Nome</h2>
-              <p>Descrição breve sobre você.</p>
+              <h2>Diogo Moreira</h2>
+              <p>Idade: </p>
+              <p>Clinica: </p>
+              <p>Soro: </p>
+              <p>Tratamento atual: </p>
             </div>
           </div>
-          <Footer />
         </main>
+        
+        <Footer />
       </div>
     </div>
   );

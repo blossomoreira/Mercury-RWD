@@ -1,14 +1,16 @@
-// components/Footer.js
+// Footer.jsx
+
 import React from 'react';
+import styles from './styles.module.css';
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className={styles.footerContainer}>
       <div>
         <p>99478 - Diogo Mendes Moreira</p>
       </div>
       <div>
-        <p>97694 - Giulia Pina de Figueiredo Galvão Ribeiro</p>
+        <p>98729 - Paolla Felix Alves de Oliveira</p>
       </div>
       <div>
         <p>99269 - Samara Cardoso Zaluski</p>

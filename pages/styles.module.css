@@ -28,7 +28,7 @@
   .menuBar {
     width: 30px;
     height: 3px;
-    background-color: #333;
+    background-color: #e31c1c;
     margin: 6px 0;
     transition: 0.3s ease-in-out;
   }
@@ -58,7 +58,6 @@
     flex-grow: 1;
     text-align: center;
     height: 100%;
-    background-color: aqua;
   }
   
   .contentShift {
@@ -72,7 +71,6 @@
     top: 0;
     left: 0;
     height: 100%;
-    background-color: #eee;
     padding: 10px;
     width: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -89,13 +87,13 @@
   
   .menuLinks a {
     text-decoration: none;
-    color: #333;
+    color: #000000;
     margin-bottom: 10px;
     font-size: 18px;
   }
   
   .menuLinks a:hover {
-    color: #0070f3;
+    color: rgb(202, 43, 43);
   }
   
   .profileSection {
@@ -104,13 +102,12 @@
     align-items: center;
     margin-top: 20px;
     height: 80%;
-    background-color: crimson;
   }
   
   .profileImage {
     width: 150px;
     height: 150px;
-    background-color: red;
+    background-color: rgb(202, 43, 43);
     border-radius: 50%;
     margin-right: 20px;
   }
@@ -118,10 +115,6 @@
   .profileInfo {
     max-width: 400px;
   }  
-
-  /* styles.module.css */
-
-/* ... seus estilos existentes ... */
 
 .profileSection {
     display: flex;
@@ -133,7 +126,7 @@
   .profileImage {
     width: 150px;
     height: 150px;
-    background-color: red;
+    background-color: rgb(202, 43, 43);
     border-radius: 50%;
     margin-right: 20px;
   }
@@ -141,22 +134,80 @@
   .profileInfo {
     max-width: 400px;
   }
-  
-  /* Adicione mais estilos conforme necessário para as informações do perfil */
-  
-  /* Estilos específicos para a página de perfil */
- /* styles.module.css */
 
-/* ... seus estilos existentes ... */
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: center;
+  color: rgb(197, 37, 37);
+  margin-top: auto; /* Mantém o rodapé no final da página */
+}
 
-/* Estilos específicos para a página de perfil */
-.footer-container {
-    background-color: green; /* Alterado para fundo preto */
-    padding: 20px;
-    margin-top: 20px;
-    text-align: center;
-    color: white; /* Adicionado para texto branco no fundo preto */
-  }
-  
+.footerContainer div {
+  flex-grow: 1;
+  padding: 0 10px; /* Adiciona algum espaçamento entre os elementos */
+}
 
-  
+.content {
+  padding: 20px;
+  text-align: center;
+  flex-grow: 1;
+  border-radius: 10px; /* Borda arredondada */
+}
+
+.loginTitle {
+  color: rgb(202, 43, 43); /* Texto vermelho */
+}
+
+.formInput {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid #ff3333; /* Borda vermelha */
+  border-radius: 5px; /* Borda arredondada */
+}
+
+.formButton {
+  background-color: #ff3333; /* Fundo vermelho */
+  color: black; /* Texto na cor da tonalidade principal de vermelho */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: rgb(202, 43, 43); /* Tonalidade mais clara de vermelho quando hover */
+}
+
+.signupText {
+  color: rgb(202, 43, 43); /* Texto vermelho */
+  margin-top: 10px;
+}
+
+.signupLink {
+  color: black; /* Link na cor preta */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Preenche a altura mínima da tela */
+}
+
+
+
+
+.menuLinks a {
+  text-decoration: none;  /* Remova esta linha para remover a decoração de texto */
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.menuLinks a:hover {
+  color: rgb(202, 43, 43);
+}
