@@ -1,5 +1,3 @@
-/* styles.module.css */
-
 .appContainer {
     display: flex;
     height: 100vh;
@@ -59,6 +57,8 @@
     transition: margin-left 0.3s ease-in-out;
     flex-grow: 1;
     text-align: center;
+    height: 100%;
+    background-color: aqua;
   }
   
   .contentShift {
@@ -103,6 +103,31 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    height: 80%;
+    background-color: crimson;
+  }
+  
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profileInfo {
+    max-width: 400px;
+  }  
+
+  /* styles.module.css */
+
+/* ... seus estilos existentes ... */
+
+.profileSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
   }
   
   .profileImage {
@@ -118,4 +143,20 @@
   }
   
   /* Adicione mais estilos conforme necessário para as informações do perfil */
+  
+  /* Estilos específicos para a página de perfil */
+ /* styles.module.css */
+
+/* ... seus estilos existentes ... */
+
+/* Estilos específicos para a página de perfil */
+.footer-container {
+    background-color: green; /* Alterado para fundo preto */
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white; /* Adicionado para texto branco no fundo preto */
+  }
+  
+
   

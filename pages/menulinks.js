@@ -1,4 +1,3 @@
-// MenuLinks.js
 import React from 'react';
 import Link from 'next/link';
 import styles from './styles.module.css';
@@ -9,7 +8,6 @@ const MenuLinks = ({ menuActive, closeMenu }) => {
       <Link href="/">Home</Link>
       <Link href="/sobre">Perfil</Link>
       <Link href="/contato">Testes e Tratamentos</Link>
-      <Link href="/contato">Fórum</Link>
     </div>
   );
 };

@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import MenuHamburguer from './menuhamburguer';
 import MenuLinks from './menulinks';
+import Footer from './footer'; // Importado o componente de rodapé
 import styles from './styles.module.css';
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
     justifyContent: 'flex-start',
     alignItems: 'center',
     padding: '10px',
-    zIndex: '3',
+    zIndex: 3,
     position: 'absolute',
     top: '10px',
     left: menuActive ? '210px' : '10px',
@@ -37,19 +38,16 @@ const Home = () => {
 
       <div className={`${styles.contentContainer} ${menuActive && styles.contentShift}`}>
         <main className={styles.content}>
-          <h1>Minha Página Inicial</h1>
+          <h1>Perfil</h1>
 
-          {/* Adicione a seção de perfil com foto e informações adicionais */}
           <div className={styles.profileSection}>
             <div className={styles.profileImage}></div>
             <div className={styles.profileInfo}>
               <h2>Seu Nome</h2>
               <p>Descrição breve sobre você.</p>
-              {/* Adicione mais informações conforme necessário */}
             </div>
           </div>
-
-          {/* Outros componentes ou conteúdo da página */}
+          <Footer />
         </main>
       </div>
     </div>
