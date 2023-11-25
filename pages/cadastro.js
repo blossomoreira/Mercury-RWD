@@ -6,7 +6,7 @@ const CadastroPage = () => {
     <div className={styles.appContainer}>
       <div className={styles.contentContainer}>
         <div className={styles.content}>
-          <h1>Cadastro Page</h1>
+          <h1>Cadastro</h1>
 
           <div className={styles.formContainer}>
             <form>

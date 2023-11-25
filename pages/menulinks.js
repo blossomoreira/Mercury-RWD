@@ -7,7 +7,6 @@ const MenuLinks = ({ menuActive, closeMenu }) => {
     <div className={`${styles.menuLinks} ${menuActive && styles.active}`} onClick={closeMenu}>
       <Link href="/">Home</Link>
       <Link href="/sobre">Perfil</Link>
-      <Link href="/contato">Testes e Tratamentos</Link>
     </div>
   );
 };
